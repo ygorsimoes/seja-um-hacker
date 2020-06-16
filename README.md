@@ -10,9 +10,9 @@ Antes de começarmos precisamos deixar algumas coisas muito bem claras e aí vai
 
 ## Sumário
 
-* [Introdução](#introducao)
-  * [As dúvidas e suas respostas...](#as-duvidas-e-suas-respostas)
-* [Por onde devo começar?](#por-onde-devo-comecar)
+* [Introdução](#introdução)
+  * [As dúvidas e suas respostas...](#as-dúvidas-e-suas-respostas)
+* [Por onde devo começar?](#por-onde-devo-começar)
 
 
 ## Introdução

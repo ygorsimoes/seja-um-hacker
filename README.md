@@ -485,7 +485,7 @@ Portanto, investem caro nessa mão de obra. Afinal de contas, elas não possuem 
 
 ![](https://i.imgur.com/tOaccQT.jpg)
 
-Google, Twitter, Facebook, NASA, Amazon, IBM, McDonalds, Submarinos, NASA, Relógios, Dipositivos Móveis, Estações Espaciais, Raspberry Pi, A Bolsa de New York, Trens Bala, Hospedagens Web, Cloud Computing, Mísseis e armas inteligentes, Hackers, The White House, Filmes de Hollywood, CISCO, Carros, Robótica, Arduino e IoT!
+Google, Twitter, Facebook, NASA, Amazon, IBM, McDonalds, Submarinos, Relógios, Dipositivos Móveis, Estações Espaciais, Raspberry Pi, A Bolsa de New York, Trens Bala, Hospedagens Web, Cloud Computing, Mísseis e armas inteligentes, Hackers, The White House, Filmes de Hollywood, CISCO, Carros, Robótica, Arduino e IoT!
 
 Não, eu não estou louco, o Linux está presente nas mais diversas aplicações, até a Microsoft utiliza Linux!
 

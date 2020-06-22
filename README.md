@@ -27,6 +27,11 @@ Antes de começarmos precisamos deixar algumas coisas muito bem claras e aí vai
       * [8. Varie o conteúdo](#8-varie-o-conteúdo)
       * [9. Mude de cenário](#9-mude-de-cenário)
       * [10. Assuma o papel de “professor”](#10-assuma-o-papel-de-professor)
+* [Programação](#programação)
+  * [Por onde começar?r](#por-onde-começar)
+  * [Os passos para aprender a programar](#os-passos-para-aprender-a-programar)
+  * [Como obter melhores resultados?](#como-obter-melhores-resultados)
+  * [Escolhendo a linguagem de programação](#escolhendo-a-linguagem-de-programação)
 * [Referências](#referências)
 
 # Introdução

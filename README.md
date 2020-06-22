@@ -1,6 +1,6 @@
 # GUIA DEFINITIVO: Seja um hacker!
 
-![enter image description here](https://i.giphy.com/media/3knKct3fGqxhK/giphy.webp)
+![](https://i.giphy.com/media/3knKct3fGqxhK/giphy.webp)
 
 Este repositório é um projeto que será sempre atualizado(dependendo do meu conturbado dia), logo poderá haver erros de ortografia entre outras falhas de escrita. Peço que tenham paciência que logo mais estarei corrigindo.
 
@@ -49,7 +49,7 @@ Em muitos casos, a figura do hacker é reconhecida como a de um especialista em 
 
 Além disso, (especialmente em tempos passados) vários setores tentaram equiparar a figura do hacker com a de um cibercriminoso, um pensamento errado tanto de sua vertente semântica como social.
 
-![enter image description here](https://i.imgur.com/snYI3XX.gif)
+![](https://i.imgur.com/snYI3XX.gif)
 
 Um ladrão também pode ser considerado um especialista em segurança, da mesma forma que um policial ou guarda de segurança, mas ao contrário dos dois últimos que escolheram o "bom caminho", o ladrão optou por “mau caminho” dentro dos seus conhecimentos.
 
@@ -63,7 +63,7 @@ Outra característica distintiva do caráter de um hacker é sua curiosidade, qu
 
 E isso é fundamental, uma vez que o verdadeiro hacker ultrapassa os ensinamentos tradicionais, é aquele que abre o caminho e inova, que descobre coisas que outros jamais encontraram, enfim, isso requer reciclagem e autoformação constante.
 
-![enter image description here](https://i.imgur.com/uu8Ikym.gif)
+![](https://i.imgur.com/uu8Ikym.gif)
 
 Este é o caso da mesma Internet, de vários sistemas operacionais (como GNU / Linux), programas e soluções de segurança e diversos softwares.
 
@@ -95,7 +95,7 @@ A ressignificação da figura do hacker tem levado à promoção de diversos eve
 
 ### Por onde devo começar?
 
-![enter image description here](https://i.imgur.com/8C42yUQ.gif)
+![](https://i.imgur.com/8C42yUQ.gif)
 
 Uma pergunta extremamente difícil, mas que eu decidir desvendar esse mistério de como iniciar seus estudos no mundo hacking.
 
@@ -117,7 +117,7 @@ Para aumentar a produtividade na hora de aprender – e diminuir tempo e estress
 
 ## 10 dicas para estudar eficientemente, segundo especialistas
 
-![enter image description here](https://i.imgur.com/SVdTAbG.gif)
+![](https://i.imgur.com/SVdTAbG.gif)
 
 ### 1. Impeça a “curva do esquecimento”
 
@@ -195,7 +195,109 @@ Pesquisas mostram que os alunos têm melhor chances de recordação ao aprendere
 
 Se tiver oportunidade, experimente ensinar o que aprendeu a um colega ou até a um “colega imaginário”. O importante é ter a expectativa de “ser professor” desde o momento de estudo, porque é ela que proporciona os benefícios.
 
+# Programação
+
+Certamente as perguntas mais feitas por todo mundo que pensa em ingressar no mundo da programação, sejam: “Como eu aprendo a programar?” e “Por onde eu devo começar?”. Se você é como todos, as próximas linhas são para você. É simples, é fácil e, sobretudo, é possível!
+
+## Por onde começar?
+
+![](https://i.imgur.com/XWudIXr.gif)
+
+Muitas pessoas que querem aprender programação, têm dúvidas comuns e uma das principais, é justamente por onde começar. 
+
+É possivelmente a resposta mais importante, porque começar bem e da forma correta, pode ser a diferença entre ter mais ou menos dificuldades no aprendizado. Pode ser mesmo a diferença entre aprender ou não. A questão é controvertida e você já vai entender o porquê.
+
+É comum no começo ouvir das pessoas: “Isso não é para mim” ou “Não consigo aprender”. Às vezes, mesmo quando não dizem abertamente, as dificuldades em exercícios e dúvidas que o aprendiz manifesta, refletem os problemas de aprendizado que ele tem. A questão por trás disso está em um aspecto simples – pressa.
+
+Sim, a pressa em aprender geralmente faz com que se queime etapas ou se elas existem, não se dedica o tempo necessário para assimilação dos conceitos. 
+
+Lembremos que aprender programação, é como aprender qualquer outra coisa. Assim como alguém que pretende ser piloto de automóveis, não vai para a pista antes de saber frear, o programador não vai aprender linguagem de programação, antes de aprender a programar!
+
+Sem discutir o mérito ou o propósito, muitos cursos ou treinamentos, ensinam programação através do ensino de uma linguagem de programação. 
+
+É verdade que muitos “pilotos” vão conseguir correr na pista, mas muitas vezes as custas de várias derrapadas e muitos erros em meio a alguns poucos acertos.
+
+Há que se ter em mente que existem literalmente centenas de linguagens de programação e todas são ferramentas para um programador criar sistemas que entregam diferentes resultados para diferentes necessidades. Linguagens novas surgem e outras morrem e independente disso, o programador continua programando.
+
+Um programador tem que ser capaz de escolher cada ferramenta, para cada resultado que precisa apresentar e assim, aprender uma linguagem vem em um momento posterior e ao longo de toda a sua vida profissional. Por isso vamos aos passos para começar.
+
+## Os passos para aprender a programar
+
+Seja como autodidata ou acompanhando um curso, opte por um roteiro que lhe permita aprender a partir dos fundamentos, evoluindo gradativamente à medida em que dá cada passo no aprendizado. Esta sequência de conhecimento deve contemplar:
+
+* Lógica e operadores lógicos;
+
+* Algoritmos;
+
+* Tipos de dados (variáveis, constantes, strings, etc);
+
+* Estruturas de dados (arrays, vetores, pilhas, listas, filas, etc);
+
+* Estruturas de iteração e controle de dados (while, for, if, etc);
+
+* Lógica de programação;
+
+* Funções e procedimentos;
+
+* Orientação a objeto.
+
+Vale notar que a sequência acima é ordenada e leva em consideração que a cada etapa os conceitos aprendidos serão usados na etapa seguinte. Portanto, a assimilação de cada informação é fundamental para que o passo seguinte seja dado com sucesso.
+
+É natural que exista ansiedade para ver resultados e colocar em prática o seu aprendizado, mas lembre-se um cardiologista ou um oncologista ou um pediatra, antes estudam para serem médicos e só depois escolhem a sua especialização. São anos de preparação e aprendizado e o que você vai entregar depois, é resultado do que faz agora.
+
+## Como obter melhores resultados?
+
+O que você vai encontrar a seguir não é uma lista de exigências, sem as quais você não vai aprender, mas recomendações que se forem seguidas, as chances de resultados melhores, são bem maiores:
+
+*  Se possível evite estudar em momentos que não possa ir até o fim de um assunto. Interrupções são improdutivas e aumentam o tempo necessário para compreensão de conceitos, sabendo que há muitos e que eles são as bases para muitas das coisas que você aprenderá;
+
+*  Opte por ambientes tranquilos, silenciosos e nos quais você possa se concentrar. Tem relação com as mesmas razões do tópico acima. A não ser que seja a única possibilidade, não estude no trem, metrô, ônibus ou em algum lugar que você não desfrute de tranquilidade;
+
+*  Não deixe dúvidas na sua sequência de aprendizado. Só avance se estiver convicto que compreendeu plenamente os conceitos de cada aula / tópico;
+
+*  Se você está aprendendo sozinho, ou seja, não é por meio de uma escola especializada ou um curso, procure ter meios para esclarecimento de dúvidas, como profissionais da área, sites especializados, etc;
+
+*  Exercite exaustivamente. A prática em qualquer área, é o que leva a boa execução;
+
+*  Reserve tempo para os estudos e aprendizado e seja rigoroso quanto ao seu cumprimento. Não ter uma agenda rígida de trabalho, pode levar a dificuldade de evolução e consequente desmotivação;
+
+*  Estabeleça metas (prazos) de aprendizado e se possível monte um cronograma preciso com tudo que quer / precisa aprender.
+
+## Escolhendo a linguagem de programação
+
+![](https://i.imgur.com/2u0vL2x.gif)
+
+É bastante comum programadores experientes saberem mais de uma linguagem de programação, mas você tem que começar com uma. Qual linguagem aprender? Nós já escrevemos um artigo (Aprenda tudo sobre o que é uma linguagem de programação e para que ela serve) que trata disso e que pode lhe ajudar a escolher, mas vamos dar algumas dicas que podem ajudar você nesta difícil tarefa
+
+Uma parte do processo de escolha da linguagem, consiste em responder no que você gostaria de atuar como programador. Lembra da escolha da sua especialização como médico? 
+
+Pois é, chegou a hora. Você quer cuidar do coração ou da mente das pessoas? Quer fazer sites?  Sistemas Operacionais? Aplicações para celulares? Internet das coisas? Robôs das indústrias? Realidade Virtual ou Realidade Aumentada? Há um campo enorme esperando por você!
+
+Sim, um programador pode atuar em diversas áreas. Atualmente com novas tecnologias surgindo diariamente, há cada vez mais setores em que há necessidade de programadores capacitados e não mais apenas em questões relacionadas aos computadores.
+
+Portanto, digamos que você acha atrativo e promissor o mercado de criação de sites ou quer ser também um webdesigner. Neste caso, você terá que aprender HTML, CSS, JavaScript e PHP, ou ASP. Já se o seu encanto está nos aplicativos mobile, terá que dedicar-se ao Java. Gosta da indústria? Programação CNC. Ou seja, sua decisão baseia-se naquilo que você pretende fazer profissionalmente.
+
+Além disso, é muito indicado ir além do aspecto essencialmente técnico e observar a atividade profissional como parte de um todo e para isso, você deve ficar atento também aos seguintes aspectos antes de se decidir:
+
+*  Colete informações sobre a atividade e o dia a dia com profissionais que já atuam no segmento pretendido;
+
+*  Procure saber como está o mercado (empresas e consumidores) e perspectivas de crescimento para os próximos anos, a fim de que não escolha um segmento com pouca oferta de trabalho ou sem perspectivas futuras;
+
+*  Avalie possibilidades de promoções e crescimento profissional na área pretendida, bem como possibilidades de ganhos;
+
+*  Surgimento de novas tecnologias, que podem amplificar o segmento ou que podem substituir as atuais, pondo fim ou limitando o desenvolvimento;
+
+*  Analise as possibilidades de remuneração para cada segmento;
+
+*  Investimentos na área e políticas públicas e privadas de desenvolvimento do setor.
+
+Percebe quais e quantas são as escolhas que você deve fazer?
+
+Aprender a programar - observando as peculiaridades do assunto - é como aprender qualquer coisa. Há diversas formas de se chegar ao fim, mas há métodos melhores e outros que nem tanto, há caminhos mais longos e mais curtos, mas se tornar um bom programador, exige bastante trabalho, estudo e método para fazê-lo.
+
+
 ## Referências
 
 * [https://conceitos.com/hacker/](https://conceitos.com/hacker/)
 * [https://guiadoestudante.abril.com.br/estudo/10-dicas-para-melhorar-seus-estudos/](https://guiadoestudante.abril.com.br/estudo/10-dicas-para-melhorar-seus-estudos/)
+* [https://www.hostmidia.com.br/blog/como-aprender-a-programar/](https://www.hostmidia.com.br/blog/como-aprender-a-programar/)

@@ -32,6 +32,26 @@ Antes de começarmos precisamos deixar algumas coisas muito bem claras e aí vai
   * [Os passos para aprender a programar](#os-passos-para-aprender-a-programar)
   * [Como obter melhores resultados?](#como-obter-melhores-resultados)
   * [Escolhendo a linguagem de programação](#escolhendo-a-linguagem-de-programação)
+* [Linux (o lado negro da força)](#linux-o-lado-negro-da-força)
+  * [Software livre](#software-livre)
+  * [O que é um Software Livre?](#o-que-é-um-software-livre)
+    * [Por que isso é bom?](#por-que-isso-é-bom)
+  * [Por que empresas utilizam Linux?](#por-que-empresas-utilizam-linux)
+    * [Segurança](#segurança)
+    * [Hardware](#hardware)
+    * [Estabilidade](#estabilidade)
+    * [Custo](#custo)
+  * [Importância e Valorização](#importância-e-valorização)
+  * [Mercado de Atuação](#mercado-de-atuação)
+    * [Manipulação de grande volume de dados](#manipulação-de-grande-volume-de-dados)
+    * [Mobile](#mobile)
+    * [Banco de dados](#banco-de-dados)
+    * [Desenvolvedores](#desenvolvedores)
+    * [Administradores de Sistemas](#administradores-de-sistemas)
+    * [DevOps](#devops)
+    * [Consultoria como um Especialista Linux](#consultoria-como-um-especialista-linux)
+  * [Quem usa Linux?](#quem-usa-linux)
+  * [Hora de aprender Linux!](#hora-de-aprender-linux)
 * [Referências](#referências)
 
 # Introdução
@@ -461,7 +481,7 @@ Como estamos tratando de um sistema vital para as organizações e com pouca mã
 
 Portanto, investem caro nessa mão de obra. Afinal de contas, elas não possuem outra opção, pois precisam do suporte necessário.
 
-### Quem usa Linux?
+## Quem usa Linux?
 
 ![](https://i.imgur.com/tOaccQT.jpg)
 

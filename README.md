@@ -20,7 +20,7 @@ Antes de começarmos precisamos deixar algumas coisas muito bem claras e aí vai
       * [1. Impeça a “curva do esquecimento”](#1-impeça-a-curva-do-esquecimento)
       * [2. Utilize material impresso](#2-utilize-material-impresso)
       * [3. Faça conexões](#3-faça-conexões)
-      * [4. Estude quando estiver cansado – e descanse em seguida](#4-estude-quando-estiver-cansado--e-descanse-em-seguida)
+      * [4. Estude quando estiver cansado – e descanse em seguida](#4-estude-quando-estiver-cansado-e-descanse-em-seguida)
       * [5. Não releia, relembre](#5-não-releia-relembre)
       * [6. Use o sistema Leitner](#6-use-o-sistema-leitner)
       * [7. Pense sobre o pensar](#7-pense-sobre-o-pensar)

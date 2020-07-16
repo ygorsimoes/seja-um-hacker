@@ -52,6 +52,7 @@ Antes de começarmos precisamos deixar algumas coisas muito bem claras e aí vai
     * [Consultoria como um Especialista Linux](#consultoria-como-um-especialista-linux)
   * [Quem usa Linux?](#quem-usa-linux)
   * [Hora de aprender Linux!](#hora-de-aprender-linux)
+* [Kali Linux, o sistema de um hacker](#kali-linux-o-sistema-de-um-hacker)
 * [Referências](#referências)
 
 # Introdução
@@ -499,9 +500,250 @@ Apesar de parecer difícil, aprender Linux não é algo de outro mundo. Na Becod
 
 Espero que esse post tenha ajudado você a abrir os olhos quanto a verdadeira importância do Linux. Fique à vontade para comentar, criticar, dar sugestões, enfim, o que for necessário.
 
+# Kali Linux, o sistema de um hacker
+
+Dentre as diversas distribuições Linux existentes no mundo, o Kali é uma das mais avançadas. Ele foi desenvolvido para fins específicos, como testes de intrusão e auditoria de segurança, e conta com uma gama de ferramentas para hackers (éticos).
+
+Você também pode ver a segunda parte desse artigo com mais 30 ferramentas para hackers que podem ser utilizadas no Kali Linux.
+
+A distribuição, antes conhecida como BackTrack, foi criada, desenvolvida e lançada pela equipe do Offensive Security em 2006, tendo rapidamente se popularizado entre os profissionais de segurança em TI. Além da mudança de nome, outras alterações foram feitas no sistema.
+
+O hoje descontinuado BackTrack era baseado no Ubuntu, enquanto o Kali, por sua vez, é baseado no Debian. Logo, podemos considerar que um é a evolução do outro.
+
+![](https://www.kali.org/wp-content/uploads/2020/05/release-2020.2-kali-kde-dark.png)
+
+Um grande diferencial do Kali Linux é o seu repertório de ferramentas nativas para executar testes diversos — são mais de 300. Isso sem contar que o sistema é gratuito, estável, confiável e pode ser complementado por uma vasta quantidade de aplicações desenvolvidas por terceiros.
+
+## Coleta de Informações e Análise de Vulnerabilidades
+
+Por melhor que seja desenvolvido, todo e qualquer produto de software contém bugs. Alguns deles se mantém ocultos e não trazem problemas, enquanto outros afetam na performance ou, pior, abrem brechas para que ameaças venham a explorar os dados confidenciais armazenados no sistema de uma empresa.
+
+Nesse contexto, a coleta de informações (information gathering) colabora por meio de levantamentos mais detalhados sobre o sistema, assim como seus recursos, dados do servidor, histórico de navegação, estruturação da rede etc.
+
+Essa medida de monitoramento é utilizada para que os hackers tenham uma base de informações satisfatória para iniciar a modelagem de ameaças (threat modeling) e, posteriormente, realizar testes de ataque (simulações).
+
+Por sua vez, as análises de vulnerabilidade (vulnerability analysis), como o próprio nome já diz, são a utilização de ferramentas que executam a análise de vulnerabilidades em todo o sistema.
+
+O resultado de uma análise dessa natureza permite, por exemplo, que todos os riscos que a rede está sujeita a sofrer sejam mapeados ou reportados em relatórios, elencando todos os pontos fracos que necessitam de correções.
+
+###  1. NMAP
+
+Sem dúvidas o Nmap é uma das principais ferramentas free open source utilizadas pelos hackers, muito utilizada para detecção de redes, análises e auditorias de segurança.
+
+![](https://i.imgur.com/4mmrXSl.png)
+
+Em suma, o Nmap é considerado essencial para levantar detalhes de informações específicas em qualquer máquina ativa. Para compreender suas numerosas funcionalidades, o próprio site oficial disponibiliza um guia gratuito (em inglês).
+
+### 2. SOCIAL ENGINEERING TOOLKIT (Setoolkit)
+
+Também conhecido como SET ou Setoolkit, o Social Engineering Toolkit é desenvolvido para auxiliar em testes de penetração contra elementos humanos.
+
+![](https://i.imgur.com/pkDD3jN.png)
+
+Que estão inseridos no ambiente de segurança do alvo, levando em consideração que as pessoas costumam ser o elo mais fraco nos sistemas de segurança.
+
+### 3. DNSENUM
+
+O DNSenum é uma ferramenta para levantamento de informações de servidores DNS.
+
+![](https://i.imgur.com/7Foo4Kn.png)
+
+Capaz de pesquisar hosts, nomes de servidores, endereços de IP, registros e outras informações, usando apenas de alguns comandos básicos.
+
+### 4. NESSUS
+
+Sem dúvidas o Nessus é uma das aplicações de seguranças mais completas para analisar e realizar auditorias. Ela é desenvolvida pela premiada Tenable, que atende a mais de 21 mil empresas globalmente.
+
+![](https://e-tinet.com/wp-content/uploads/2017/04/Nessus-kali-linux-ferramenta-para-usar-como-hackers.png)
+
+Com o Nessus, profissionais de segurança da informação podem executar vários escaneamentos simultaneamente, contar com atualizações constantes da ferramenta, variedade de plugins, além de relatórios que podem ser gerados por meio de um dashboard.
+
+### 5. CISCO-TORCH
+
+Seguindo a mesma linha das ferramentas de scanner, o Cisco-torch tem algumas peculiaridades. Uma delas é a utilização constante de forking (bifurcação) para lançar a múltiplos processos de varredura em segundo plano. De acordo com o Hacking Exposed Cisco Networks, isso maximiza a eficiência na detecção de vulnerabilidades.
+
+![](https://e-tinet.com/wp-content/uploads/2017/04/ferramenta-do-kali-linux-cisco-torch.png)
+
+O objetivo dos desenvolvedores ao criar o Cisco-torch foi obter uma solução ágil para descobrir remotamente hosts da Cisco que usam protocolos SSH, Telnet, Web, NTP e SNTP, com vista em lançar ataques de dicionários contra os servidores descobertos.
+
+## Aplicações Web
+
+Certamente, você já sabe ou tem boa noção do que se tratam as aplicações web. Mas, para não passar em branco, definimos as aplicações web como programas que rodam em servidores web e são acessados via browser.
+
+### 1. NIKTO
+
+Trata-se de uma aplicação para analisar a vulnerabilidade de um site. Ela realiza:
+
+![](https://www.100security.com.br/images/nikto-01.png)
+
+* Testes para mais de 6700 arquivos e programas potencialmente perigosos que estão presentes na web;
+* Verificação da configuração do servidor;
+
+* Análise de itens cruciais que possam ser atualizados automaticamente;
+* Consultas por mais de 1250 versões desatualizadas de servidores e seus problemas específicos.
+
+O Nikto se caracteriza pela agilidade em desempenhar atividades que, em tese, são altamente complexas. Além, é claro, de ser uma ferramenta gratuita.
+
+### 2. PARSERO
+
+Diferente das demais ferramentas mencionadas até aqui, o Parsero não é um software, mas sim um script. Escrito em Python, ele faz a leitura do arquivo Robot.txt de um servidor web e checa por entradas não autorizadas, que transmitirão aos motores de busca (Google, Ask, Bing e outros) quais arquivos ou diretórios hospedados no servidor não devem ser indexados pelo robô.
+
+![](https://e-tinet.com/wp-content/uploads/2017/04/Parsero-usando-no-kali-linux-ferramenta-2.png)
+
+Às vezes, mesmo que os caminhos estejam restritos ao acesso via buscadores, eles podem estar acessíveis a usuários que entram no site diretamente.
+
+Para solucionar esse problema, o script do Persero verifica o status do código HTTP de cada entrada marcada como Disallow e ainda faz a busca, por meio do Bing, para localizar conteúdos indevidamente indexados.
+
+### 3. WAPITI
+
+O Wapiti permite ao usuário a realizar testes “black-box”, um método que examina os recursos de uma aplicação sem averiguar as estruturas internas.
+
+![](https://e-tinet.com/wp-content/uploads/2017/04/Wapiti-ferramenta-do-kali-linux.jpg)
+
+A ferramenta não estuda o código fonte da aplicação web, mas sim verifica as páginas da web por ela implementadas em busca de scripts nos quais possa injetar dados. Ao encontrar os scripts, o Wapiti executa uma transmissão de dados em grande carga para testar a suas vulnerabilidades.
+
+### 4. OWASP ZAP
+
+Encontrar vulnerabilidades na segurança de aplicações web enquanto você as estiver desenvolvendo ou testando é uma possibilidade interessante para profissionais que já têm um bom conhecimento técnico para fazer testes manualmente.
+
+![](https://www.prodefence.org/wp-content/uploads/2018/09/2450.1523863706.jpg)
+
+É justamente esse o propósito do OWASP ZAP, uma popular e gratuita ferramenta para hackers desenvolvida por centenas de voluntários ao redor do planeta. Não por acaso, o ZAP está disponível em mais de 20 idiomas.
+
+As principais características dessa ferramenta são a facilidade no uso, conteúdos de ajuda que podem ser facilmente compreendidos, comunidade bastante ativa e o fato de ser completamente livre de versões pagas.
+
+### 5. VEGA
+
+Com foco em aplicações web, o Vega é uma solução livre, open source, de interface gráfica e desenvolvida em Java, cuja especialidade é verificar vulnerabilidades e testes.
+
+![](https://i.ytimg.com/vi/O_UKBq14iWk/maxresdefault.jpg)
+
+Dois grandes diferenciais do Vega em comparação à maioria das ferramentas são o seu scan automatizado para executar testes rápidos para detectar erros e vulnerabilidades e o fato de a ferramenta ser expansível, graças à sua API Javascript.
+
+Algumas funcionalidades do Veja Vulnerability Scanner são:
+
+* Detecção de erros;
+* Cross Site Scriping (XXS);
+* Site crawler;
+* Análise de conteúdo;
+* SQL injection.
+
+Vale ressaltar, também, que a interface do Vega é muito intuitiva e fácil de usar.
+
+### 6. WIRESHARK
+
+![](https://img.utdstc.com/icons/wireshark-.png:225)
+
+Por fim temos o Wireshark, que, embora seja a última ferramenta citada no tópico, é uma das quais podemos considerar obrigatórias para o Kali Linux. Isso porque o Wireshark permite ao usuário analisar a rede e obter ricos detalhes para saber o que está acontecendo no momento.
+
+![](https://i1.wp.com/i.imgur.com/OQW7ZHw.jpg)
+
+Eles são obtidos por meio de algumas funcionalidades, como a captura, análise e filtragem de pacotes em tempo real, importação e exportação de arquivos e inspeção de centenas de protocolos.
+
+
+## Violação de Senhas
+
+Também conhecida como password cracking (ataques offline) ou password guessing (ataques on-line), a violação de senhas (password attack) é uma prática feita por meio de programas, algoritmos e técnicas dos mais diversos tipos — dictionary attack, rainbow table, brute force e outras —, com objetivo claro de descobrir senhas de usuários.
+
+As principais aplicações para trabalhar com a proteção de informações sobre senhas e login são:
+
+### 1. THC HYDRA
+
+O THC Hydra é uma ferramenta gratuita e on-line — ou seja, trabalha em cima de ataques como password guessing, que consistem na captura de senhas a partir de tentativas de login — que executa rapidamente a quebra de senhas por meio de dicionário (lista de passwords) ou força bruta para testar várias combinações de senha / login.
+
+![](https://e-tinet.com/wp-content/uploads/2017/04/THC-Hydra-ferramenta-kali-linux.png)
+
+Um destaque do THC Hydra é o suporte a mais de 50 protocolos, como HTTP, FTP, Mail, SSH, Banco de Dados etc.
+
+### 2. JOHN THE RIPPER
+
+Seja pelo nome criativo (até mesmo premiado) ou pelas suas funcionalidades, o John The Ripper (JTR) é uma das mais conhecidas ferramentas de password cracking (processo de recuperação ou violação de senhas, no ponto de vista da criptoanálise) e tem versões free e pro.
+
+![](https://static.packt-cdn.com/products/9781787121829/graphics/e9dd5472-6907-4b68-a7e9-c936ecf02253.png)
+
+Assim como o THC Hydra, o JTR utiliza ataques de força bruta e dicionários, fazendo uma varredura pelos dados contidos no computador. Porém, a diferença é que o John atua contra os ataques offline.
+
+## Engenharia Reversa
+
+A engenharia reversa é um método que consiste em estudos de um objeto, seja ele um hardware ou software, a fim de destrinchá-lo para analisar cada componente ou elemento.
+
+Essa atividade pode ser de grande utilidade em termos de segurança, pois torna possível descobrir como o objeto foi fabricado, abrindo um leque de outras possibilidades (detectar vulnerabilidades ou recursos que podem ser melhorados).
+
+Vamos agora para as 3 ferramentas de engenharia reversa que você pode usar no Kali Linux:
+
+### 1. APKTOOL
+
+Com o Apktool, o usuário pode trabalhar com engenharia reversa decodificando recursos em suas formas quase originais e reconstruindo-as aplicando algumas modificações. Tudo isso fazendo o debug de códigos smali.
+
+![](https://ethhack.com/wp-content/uploads/2020/01/APKtool-A+Tool+for+Reverse+Engineering+Android+APK+Files.png)
+
+As funcionalidades do Apktool como ferramenta para hackers éticos são um excelente meio de acrescentar novos recursos, funcionalidades e aprimoramentos de uma aplicação.
+
+### 2. IMMUNITY DEBUGGER
+
+O Immunity Debugger pode ser usado para escrever exploits — parte de um código de programação para adquirir vantagens de bugs em uma aplicação — e analisar malware.
+
+![](https://e-tinet.com/wp-content/uploads/2017/04/Immunity-Debugger-kali-wine.png)
+
+Seus recursos como debugger podem ser ampliados em Python, permitindo que o usuário escreva comandos em Python diretamente da barra de comando — que tem uma versão remota — ou até mesmo usar a linguagem para criar funções gráficas.
+
+Uma das maiores virtudes do Immunity Debugger é o fato de ser leve, ou seja, não consome muitos recursos da CPU. Isso contribui diretamente para a análise de vulnerabilidades.
+
+OBS: Vai precisar do wine para instalar essa ferramenta no Kali Linux.
+
+### 3. RADARE2
+
+O Radare é um projeto desenvolvido desde 2006 até chegar à sua segunda versão (Radare2). Hoje o software é considerado um framework completo para análise de arquivos binários. Ele traz uma um conjunto de pequenas ferramentas que podem ser utilizadas juntas ou isoladas, bastando digitar linhas de comando.
+
+![](https://e-tinet.com/wp-content/uploads/2017/04/Radare2-kali-linux-ferramentas.png)
+
+Um aspecto interessante do Radare2 é que as iniciais dos comando variam de acordo com a finalidade da aplicação. Por exemplo: o comando radare é o comando primário, que permite abrir qualquer tipo de arquivo em qualquer fonte, entre muitas outras funções mais avançadas. Já o comando rabin extrai informações de arquivos executáveis binários de determinadas funções, como PE, ELF, Java CLASS e MACH-O.
+
+## Ataque Wireless
+
+Proteger a rede sem fio é uma das maiores preocupações do administrador de sistemas. O Kali Linux já fornece soluções nativas para ajudar a combater esse tipo de invasão, porém, é possível otimizar com outras ferramentas.
+
+### 1. AIRCRACK-NG
+
+![](https://www.aircrack-ng.org/resources/aircrack-ng-new-logo.jpg)
+
+O Aircrack-ng tem como especialidade a proteção e detecção de ameaças de redes Wi-Fi (Wireless), devido às ferramentas para WEP/WPA/WPA2 cracking — configuração de falsos pontos de acesso, captura de pacotes, wireless password cracking, entre outros.
+
+![](https://www.1337pwn.com/app/uploads/2017/09/how-to-crack-wpawpa2-wi-fi-passwords-using-aircrack-ng-in-kali.png)
+
+No site oficial, o usuário tem acesso a informações (em seu Wiki) e a um excelente suporte, fornecido via fórum pela comunidade, que auxilia na solução de problemas.
+
+### 2. FERN WIFI CRACKER
+
+Essa ferramenta também é desenvolvida em Python e foi projetada para crackear e recuperar chaves dos tipos WEP/WPA/WPS, realizar auditorias de segurança e, também, executar ataques — força bruta ou dicionários — com base em redes sem fio ou Ethernet.
+
+![](https://e-tinet.com/wp-content/uploads/2017/04/Fern-Wifi-Cracker-kali-linux.jpg)
+
+No entanto, existem alguns pré-requisitos (algumas ferramentas para integração) para que o Fern Wifi Cracker funcione no Kali Linux:
+
+* Aircrack-NG;
+* Python-Scapy;
+* Python Qt4;
+* Python;
+* Subversion;
+* Xterm;
+* Reaver (para ataques de WPS);
+* Macchanger.
+
+### 3. BULLY
+
+Bully é um programa escrito em linguagem C e serve para implementar ataques WPS de força bruta, reconhecido pelo bom uso dos recursos de memória, da CPU e por oferecer boas opções de menu.
+
+![](https://e-tinet.com/wp-content/uploads/2017/04/Bully-kali-ferramenta-wifi.jpg)
+
+De acordo com os desenvolvedores, as funcionalidades do Bully foram testadas sob várias situações, inclusive com diferentes configurações, e apresentaram ótimos resultados.
+
+Uma observação importante é que, para instalar o Bully, é necessário ter instalado no seu Kali Linux o Wiire’s Pixiewps, um software também escrito em linguagem C para realizar ataques de força bruta offline nas chaves WPS explorando falhas do ponto de acesso.
+
 ## Referências
 
 * [https://conceitos.com/hacker/](https://conceitos.com/hacker/)
 * [https://guiadoestudante.abril.com.br/estudo/10-dicas-para-melhorar-seus-estudos/](https://guiadoestudante.abril.com.br/estudo/10-dicas-para-melhorar-seus-estudos/)
 * [https://www.hostmidia.com.br/blog/como-aprender-a-programar/](https://www.hostmidia.com.br/blog/como-aprender-a-programar/)
 * [https://becode.com.br/por-que-aprender-linux/](https://becode.com.br/por-que-aprender-linux/)
+* [https://www.profissionaisti.com.br/kali-linux-a-distribuicao-linux-para-ethical-hacking-e-testes-de-invasao/](https://www.profissionaisti.com.br/kali-linux-a-distribuicao-linux-para-ethical-hacking-e-testes-de-invasao/)

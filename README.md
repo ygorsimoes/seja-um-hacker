@@ -81,7 +81,7 @@ Antes de começarmos precisamos deixar algumas coisas muito bem claras e aí vai
 * [Termux - Um terminal no seu Android](#termux---um-terminal-no-seu-android)
   * [O que o Termux nos oferece?](#o-que-o-termux-nos-oferece)
   * [Trabalhando com Termux](#trabalhando-com-termux)
-  * [Acessando $ HOME](#acessando-$home)
+  * [Acessando $ HOME](#acessando--home)
   * [Possibilidades com Termux](#possibilidades-com-termux)
   * [Gerenciamento de pacotes](#gerenciamento-de-pacotes)
   * [Addons](#addons)

@@ -1,3 +1,4 @@
+
 # GUIA DEFINITIVO: Seja um hacker!
 
 ![](https://i.giphy.com/media/3knKct3fGqxhK/giphy.webp)
@@ -77,7 +78,16 @@ Antes de começarmos precisamos deixar algumas coisas muito bem claras e aí vai
     * [1. AIRCRACK-NG](#1-aircrack-ng)
     * [2. FERN WIFI CRACKER](#2-fern-wifi-cracker)
     * [3. BULLY](#3-bully)
-* [Referências](#referências)
+* [Termux - Um terminal no seu Android](#termux---um-terminal-no-seu-android)
+  * [O que o Termux nos oferece?](#o-que-o-termux-nos-oferece)
+  * [Trabalhando com Termux](#trabalhando-com-termux)
+  * [Acessando $ HOME](#acessando-$home)
+  * [Possibilidades com Termux](#possibilidades-com-termux)
+  * [Gerenciamento de pacotes](#gerenciamento-de-pacotes)
+  * [Addons](#addons)
+  * [Outras ferramentas](#outras-ferramentas)
+  * [Outros sistemas Linux](#outros-sistemas-linux)
+* [Bibliografia](#bibliografia)
 
 # Introdução
 
@@ -764,10 +774,149 @@ De acordo com os desenvolvedores, as funcionalidades do Bully foram testadas sob
 
 Uma observação importante é que, para instalar o Bully, é necessário ter instalado no seu Kali Linux o Wiire’s Pixiewps, um software também escrito em linguagem C para realizar ataques de força bruta offline nas chaves WPS explorando falhas do ponto de acesso.
 
-## Referências
+# Termux - Um terminal no seu Android
+
+Se nem sempre é possível ter um notebook com Linux em mãos, o [Termux](https://wiki.termux.com/wiki/Main_Page) quebra um galho e tanto. Para isto, basta instalar em seu Android o programa que está disponível na [Google Play](https://play.google.com/store/apps/details?id=com.termux) e [F-Droid.](https://f-droid.org/repository/browse/?fdid=com.termux)
+
+
+![](https://i.postimg.cc/vmxGZf4Y/Neofetch-in-Termux.jpg)
+
+-   O Termux é um **emulador de terminal para Android**, que funciona  **sem a necessidade de fazer** **_root_** **ou configurar seu dispositivo**.
+-   Quando você instala em seu telefone Android, você terá um sistema mínimo … mas isso é apenas a ponta do iceberg das possibilidades que oferece. Você pode instalar **centenas de pacotes** usando o gerenciador de pacotes **apt**.
+
+## O que o Termux nos oferece?
+
+-   **Segurança**. Acesso remoto usando o cliente  **OpenSSH**.
+-   Centenas de pacotes. Você pode escolher entre:
+    -   **Shells** diferentes**,** como  **Bash, Fish ou Zsh**, por exemplo;
+    -   **Editores** diferentes **,** como  **nano, vim ou Emacs;**
+    -   Acesse qualquer  **API**  por meio de **curl;**
+    -   Execute sincronizações com o **rsync.**
+
+Assim, praticamente qualquer coisa pode ser feita com o Termux. Ele funciona como um terminal do Ubuntu ou a distribuição GNU/Linux que você usa.
+
+![](https://i.imgur.com/xRhnlsV.png)
+
+-   Você pode instalar o **Git**. E se você pode instalar e operar o git você pode fazer quase qualquer coisa que você possa imaginar …
+-   Mas como não só git vive o homem, ele também coloca à sua disposição **Python**, **Perl**, **PHP**, **Ruby** ou **Node.js**.
+-   Você só precisa conectar um **teclado bluetooth** e terá um emulador de terminal funcionando com potência máxima.
+
+## Trabalhando com Termux
+
+Primeiramente, visite a página [wiki](https://wiki.termux.com/wiki/User_Interface) do [Termux](https://wiki.termux.com/wiki/User_Interface), para que você possa ver o funcionamento deste emulador de terminal para Android. Lá você encontrará algumas **noções básicas** para entender o funcionamento dessa **ferramenta poderosa** .
+
+Dito isso, algumas notas para tornar sua vida mais fácil, caso você não conecte um teclado bluetooth.
+
+-   **Aumentar e reduzir o tamanho da fonte com os dedos**.
+-   Se você pressionar demoradamente, um menu contextual aparecerá. Então, dependendo do que você fizer, ele permitirá que você execute certas ações …
+    -   Copiar e colar;
+    -   Selecionar o texto;
+    -   Compartilhar um texto;
+    -   Repor o terminal;
+    -   Matar um processo;
+    -   Mostrar ajuda, que é basicamente o wiki.
+-   O teclado. Se você não estiver usando um teclado bluetooth, você não terá como usar a chave **Control**  e, claro, as setas de rolagem. Isso é essencial para trabalhar com o terminal. Para resolver isso,
+    
+    -   Volume pra baixo: corresponde a Control
+    -   Volume Acima + E: corresponde a Esc
+    -   Volume Acima + T: corresponde a Tab
+    -   Volume Acima + W: corresponde a Cursor Acima
+    -   Volume Acima + A: corresponde a Cursor esquerda
+    -   Volume Acima + S: corresponde a Cursor abaixo
+    -   Volume Acima + D: corresponde a Cursor direita
+    
+    Existem muitos mais atalhos de teclado, mas com estes você pode se mover com facilidade. De qualquer forma, visite o wiki do Termux para estar perfeitamente informado.
+
+## Acessando $ HOME
+
+Acessar o diretório  **$ HOME**  não é possível para outros aplicativos. No entanto, você pode compartilhar arquivos com permissão de leitura usando a ferramenta `termux-open`.
+
+Se você precisar de acesso de leitura e gravação, execute `termux-setup-storage`e forneça as permissões necessárias. Isto irá criar um diretório `$HOME/storage`com acesso direto aos vários diretórios `sdcard`.
+
+## Possibilidades com Termux
+
+Termux permite que você faça quase tudo que imaginar. Então, por exemplo, você tem à sua disposição
+
+-   **Ambientes de desenvolvimento** para  **Java, Python, Ruby, Rust, PHP**  e muito mais…
+-   **Editores**, tanto de áudio e vídeo, como o poderoso **ffmpeg**, passando por editores de texto como **Emacs**, **Vim**, **nano**, **joe**  e até  **editores de imagens**  como o **imagemagick** .
+-   **Ambientes gráficos**. Você pode habilitar o  **X11, configurar o VNC nos modos servidor e cliente para usar gerenciadores de janelas como Fluxbox ou Openbox.**
+
+## Gerenciamento de pacotes
+
+Para gerenciar os pacotes no Termux, é recomendado usar o **pkg**, que nada mais é do que uma **_interface_ apt**. A vantagem é que simplifica a instalação ou atualização de pacotes. Portanto, por exemplo, você não precisa fazer `apt update`toda vez que instala um pacote.
+
+![](https://miro.medium.com/max/522/0*31kmqCChi0dB_8T_.gif)
+
+Para instalar um pacote, é simples:
+
+```
+pkg install [pacote]
+```
+
+Para desinstalar um pacote
+
+```
+pkg uninstall [pacote]
+```
+
+Para listar pacotes instalados
+
+```
+pkg list-all
+```
+
+Você também pode instalar pacotes `deb`usando `dpkg`.
+
+Por outro lado, existem alguns pacotes específicos que requerem privilégios  `root.`  Eles estão em um repositório separado.
+
+Além disso, existem outros gerenciadores de pacotes, como **npm**, **pip**, **gem** e outros que você pode usar perfeitamente.
+
+Igualmente, existem outros repositórios não oficiais, que lhe permitirão instalar muitos pacotes além daqueles indicados aqui.
+
+## Addons
+
+Termux tem alguns recursos extras. Você pode adicioná-los instalando addons: [Termux: API](https://wiki.termux.com/wiki/Termux:API "Termux: API")
+
+Acessar recursos de hardware do Android e do Chrome. [Termux: Boot](https://wiki.termux.com/wiki/Termux:Boot "Termux: Boot")
+
+Executar script (s) quando o dispositivo é inicializado. [Termux: Float](https://wiki.termux.com/wiki/Termux:Float "Termux: Float")
+
+Execute o Termux em uma janela flutuante. [Termux: Styling](https://wiki.termux.com/wiki/Termux:Styling "Termux: Styling")
+
+Tenha esquemas de cores e fontes prontas para a personalização da aparência do terminal Termux. [Termux: Task](https://wiki.termux.com/wiki/Termux:Task "Termux: Tarefa")
+
+Uma maneira fácil de executar tarefas no Termux e aplicativos compatíveis. [Termux: Widget](https://wiki.termux.com/wiki/Termux:Widget "Termux: Widget")
+
+Inicie pequenos scriptlets a partir da tela inicial.
+
+## Outras ferramentas
+
+O Termux também permite a instalação de ferramentas utilizadas para ethical hacking. Assim, são disponibilizados, por exemplo, a ferramenta de força bruta  `THC Hydra`, e scanner de rede `nmap`. Também possuem todas as dependências para instalar o famoso `[metasploit-framework](https://wiki.termux.com/wiki/Metasploit "Metasploit")`.
+
+## Outros sistemas Linux
+
+Da mesma forma, o Termux permite a configuração de outros sistemas Linux. Isto é feito por meio do  **PRoot. Basicamente, ele serve para emular**  chroot, bind mount e binfmt_misc para usuários não raiz. Mais informações nos links abaixo:
+
+Homepages: [https://proot-me.github.io](https://proot-me.github.io/)  e
+
+[https://github.com/proot-me/PRoot](https://github.com/proot-me/PRoot)
+
+#### Veja a lista e instruções abaixo:
+
+-   [Arch](https://wiki.termux.com/wiki/Arch "Arch")
+-   [Archstrike](https://wiki.termux.com/wiki/Archstrike "Archstrike")
+-   [Blackarch](https://wiki.termux.com/wiki/Blackarch "Blackarch")
+-   [Debian](https://wiki.termux.com/wiki/Debian "Debian")
+-   [Fedora](https://wiki.termux.com/wiki/Fedora "Fedora")
+-   [Slackware](https://wiki.termux.com/wiki/Slackware "Slackware")
+-   [Ubuntu](https://wiki.termux.com/wiki/Ubuntu "Ubuntu")
+-   [Alpine Linux](https://github.com/Hax4us/TermuxAlpine)
+
+# Bibliografia
 
 * [https://conceitos.com/hacker/](https://conceitos.com/hacker/)
 * [https://guiadoestudante.abril.com.br/estudo/10-dicas-para-melhorar-seus-estudos/](https://guiadoestudante.abril.com.br/estudo/10-dicas-para-melhorar-seus-estudos/)
 * [https://www.hostmidia.com.br/blog/como-aprender-a-programar/](https://www.hostmidia.com.br/blog/como-aprender-a-programar/)
 * [https://becode.com.br/por-que-aprender-linux/](https://becode.com.br/por-que-aprender-linux/)
 * [https://www.profissionaisti.com.br/kali-linux-a-distribuicao-linux-para-ethical-hacking-e-testes-de-invasao/](https://www.profissionaisti.com.br/kali-linux-a-distribuicao-linux-para-ethical-hacking-e-testes-de-invasao/)
+* [[https://sempreupdate.com.br/conheca-o-termux-e-aproveite-ao-maximo-o-linux-no-android/](https://sempreupdate.com.br/conheca-o-termux-e-aproveite-ao-maximo-o-linux-no-android/)]

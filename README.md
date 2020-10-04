@@ -3,7 +3,7 @@
 
 ![](https://i.giphy.com/media/3knKct3fGqxhK/giphy.webp)
 
-Este repositório é um projeto que será sempre atualizado(dependendo do meu conturbado dia), logo poderá haver erros de ortografia entre outras falhas de escrita. Peço que tenham paciência que logo mais estarei corrigindo.
+Este repositório é um projeto que será sempre atualizado (dependendo do meu conturbado dia), logo poderá haver erros de ortografia entre outras falhas de escrita. Peço que tenham paciência que logo mais estarei corrigindo.
 
 Antes de começarmos precisamos deixar algumas coisas muito bem claras e aí vai a primeira observação: 
 
@@ -103,13 +103,13 @@ De cara eu já irei deixar claro e respondido todas as sua dúvidas(ou a maioria
 
 ### O que é um Hacker?
 
+![](https://i.imgur.com/5aYMNIU.gif)
+
 O hacker é um especialista tecnológico cujos conhecimentos em matéria de segurança, sistemas operacionais e/ou programação, superam não só o conhecimento dos meios de qualquer usuário final, mas também de muitos profissionais destes setores.
 
 Em muitos casos, a figura do hacker é reconhecida como a de um especialista em segurança informática. Mesmo isso não sendo necessariamente assim, em geral, é muito comum que os hackers tratem seu principal interesse em questões de segurança, comprovação de sistemas e sua violação, assim como a construção de programas que possam melhorar este aspecto.
 
 Além disso, (especialmente em tempos passados) vários setores tentaram equiparar a figura do hacker com a de um cibercriminoso, um pensamento errado tanto de sua vertente semântica como social.
-
-![](https://i.imgur.com/snYI3XX.gif)
 
 Um ladrão também pode ser considerado um especialista em segurança, da mesma forma que um policial ou guarda de segurança, mas ao contrário dos dois últimos que escolheram o "bom caminho", o ladrão optou por “mau caminho” dentro dos seus conhecimentos.
 
@@ -138,6 +138,8 @@ Longe das atividades dos cibercriminosos, os verdadeiros hackers seguem uma éti
 Atingir os cidadãos e fazer com eles façam uso apropriado destas informações. É por isso que muitos hackers estão associados aos movimentos sociais e políticos nos últimos anos.
 
 ### O que faz um “hacker do bem”?
+
+![](https://i.imgur.com/snYI3XX.gif)
 
 É por isso que a carreira na área de segurança da informação tem crescido tanto. E a medida em que o hacker ético vai se tornando indispensável, o estereótipo do hacker mal intencionado começa a perder a força. 
 

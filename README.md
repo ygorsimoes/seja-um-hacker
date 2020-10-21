@@ -1,7 +1,7 @@
 
 # GUIA DEFINITIVO: Seja um hacker!
 
-![](https://i.giphy.com/media/3knKct3fGqxhK/giphy.webp)
+![](https://pa1.narvii.com/6744/60e6a5d7199177d4d46fd317e1d5da7750e0435b_hq.gif)
 
 Este repositório é um projeto que será sempre atualizado (dependendo do meu conturbado dia), logo poderá haver erros de ortografia entre outras falhas de escrita. Peço que tenham paciência que logo mais estarei corrigindo.
 
